@@ -11,7 +11,7 @@ while(1):
 
     # Convert BGR to HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+
 
     # define range of blue color in HSV
     lower_blue = np.array([115,30,40])
